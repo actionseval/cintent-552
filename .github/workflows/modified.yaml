@@ -10,8 +10,10 @@ jobs:
     strategy:
       matrix:
         python:
+        # CINTENT >> CHANGE_VERSION
         # These have to be strings, as, e.g., 3.10 and 3.1 are NOT the same.
-        - "3.9"
+        # - "3.9"
+        - "3.10"
     steps:
     # CINTENT >> CHANGE_VERSION
     # - uses: actions/checkout@v1
